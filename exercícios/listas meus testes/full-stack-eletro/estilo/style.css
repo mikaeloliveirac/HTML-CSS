@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: red;
+    padding: 20px;
+}
+header a{
+    color: white;
+    margin: 20px;
+    padding: 5px;
+}
+h2.produtos{
+    padding: 20px;
+}
+img{
+    width: 100px;
+}
+div{
+    min-width: 0px;
+    max-width: 800px;
+    align-content: center;
+}
+main{
+    min-width: 0px;
+    max-width: 100px;
+    max-width: 300px;
+    justify-content: right
+}
+table.tabelaprodutos{
+    min-width: 0px;
+     margin-left: 200px;
+
+}
+td{
+    padding-bottom: 50px;
+}
+h4{
+    text-align: center;
+}
+p{
+    text-align: center;
+}

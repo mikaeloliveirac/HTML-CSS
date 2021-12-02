@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Idroid;
+    src: url('fontes/idroid.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color:#84E1AD;
+}
+header{
+    background-image: linear-gradient(to bottom, #3CD782,#1A5C38);
+    color: white;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px -7px 0px;
+
+    
+    
+
+}
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow: black;
+
+}
+header>p{
+    text-align: center;
+}
+h1,h2{
+    font-family: 'Idroid', Helvetica, sans-serif;
+    color: #286544;
+}
+a{
+    color: white;
+}
+main{
+    background-color: white;
+    padding: 20px;
+    width: 800px;
+    margin: auto;
+}
+.android{
+    text-align: center;
+}
+.videoandroid{
+    text-align: center;
+}
+.saibamais{
+    background-color: #C5EBD6;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+.pergunta{
+    background-color: #2FA866;
+    border-radius: 10px;
+    color: white;
+    margin: -4px -4px -4px -4px;
+    padding: 5px;
+}
+footer{
+    background-color: #1A5C38;
+    color: white;
+    text-align: center;
+    margin: -5px;
+}

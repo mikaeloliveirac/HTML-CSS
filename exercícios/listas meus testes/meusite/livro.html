@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indicação de livros</title>
+    <link rel="shortcut icon" href="imagens/Double-J-Design-Ravenna-3d-Book.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <h1>INDICAÇÃO DE LIVROS</h1>
+
+    </header>
+    <nav>
+        <a href="#">Saiba Mais</a>
+        <a href="#">Fale Conosco</a>
+        <a href="#">Outros</a>
+
+    </nav>
+    <main>
+        <h2 id="clarice">Uma aprendizagem ou o livro dos prazeres</h2>
+        <div class="div">
+            Livro lançado em 1940
+        </div>
+        <picture>
+            <source media="(max-width:800px )" srcset="imagens/lispector-livro-pq.jpg" type="image/jpg">
+            <img src="imagens/lispector-livro-g.jpg" alt="Livro Uma Prendizagem ou o livro dos prazeres"></picture>
+        <p>O silêncio é a profunda noite secreta do mundo. E não se pode falar do silêncio como se fala da neve: sentiu
+        o silêncio dessas noites? Quem ouviu não diz. Há uma maçonaria do silêncio que consiste em não falar dele e
+        de adorá-lo sem palavras.</p>
+        <aside>
+            <picture>
+                <source media="(max-width:800px )" srcset="imagens/clarice-lispector-pq.png" type="image/png">
+                <img src="imagens/claricelispector-g.png" alt="Clarice Lispector"></picture>
+            <p><strong>Clarice Lispector</strong>, escritora brasileira. 1920 – 1977.</p>
+
+        </aside>
+        <h2>Metamorfose</h2>
+        <picture>
+            <source media="(max-width:800px )" srcset="imagens/kafka-livro-pq.jpg" type="image/jpg">
+            <img class="meta" src="imagens/kafka-livro-g.jpg" alt="Livro Metamorfose"></picture>
+        <p>Não posso recortar de dentro de mim um homem que talvez fosse mais adequado à amizade com ele do que eu mesmo sou.</p>
+        <aside>
+            <picture>
+                <source media="(max-width: 800px)" srcset="imagens/franz-kafka-pq.png" type="image/png">
+                <img src="imagens/franz-kafka-g.png" alt="Franz Kafka"></picture>
+            <p><strong>Franz Kafka</strong>, escritor austríaco. 1883 – 1924.</p>
+
+        </aside>
+        <h2>A Redoma De Vidro</h2>
+        <picture>
+            <source media="(max-width: )" srcset="imagens/plath-livro-g.png" type="image/png">
+            <img src="imagens/plath-livro-g.png" alt="Livro A Redoma De Vidro"></picture>
+        <p>Não teria feito a menor diferença se ela tivesse me dado uma passagem para a Europa ou um cruzeiro ao redor do mundo, porque onde quer que eu estivesse – fosse ao convés de um navio, um café parisiense ou Bangcoc – estaria sempre sob a mesma redoma de vidro, sendo lentamente cozida em meu próprio ar viciado.</p>
+        <aside>
+            <picture>
+                <source media="(max-width: 800px)" srcset="imagens/sylvia-plath-pq.jpg" type="image/jpg">
+                <img src="imagens/sylvia-plath-g.jpg" alt="Sylvia Plath"></picture>
+            <p><strong>Sylvia Plath</strong>, escritora estadunidense. 1932 – 1963.</p>
+        </aside>
+        <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/qGxt8TxiAgA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+
+
+    </main>
+    <footer>
+        <p>Site Criado Por <a href="#">Mikael Oliveira</a></p>
+
+    </footer>
+
+
+  <script>
+
+      $(document).ready(function(){
+        $("aside").hide()
+        $("p").mouseenter(function(){
+           
+            $("aside").show(1000)
+        })
+        $("aside").dblclick(function(){
+            $(this).hide(1000)
+        })
+        $("#clarice").mouseenter(function(){
+            $(".div").slideToggle()
+        }) 
+      })
+  </script>
+</body>
+
+</html>
